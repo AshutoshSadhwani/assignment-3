@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0; /* Remove default margin */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Page Heading */
+h1 {
+    margin-top: 50px; /* Adjust as needed */
+    margin-bottom: 30px;
+}
+
+/* Main Content */
+.container {
+    padding-top: 20px;
+}
+
+/* Mobile Menu */
+.navbar-toggle {
+    margin-right: 15px;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px; /* Adjust vertical spacing */
+}
+
+.navbar-nav > li {
+    float: none; /* Clear float */
+}
+
+.navbar-collapse {
+    padding: 0; /* Remove default padding */
+}
+
+.navbar-collapse.in {
+    overflow-y: auto; /* Enable scrolling for mobile menu */
+}
+
+/* Mobile Menu Dropdown */
+.navbar-nav .dropdown-menu {
+    width: 100%;
+    background-color: #f8f8f8; /* Example background color */
+}
+
+.navbar-nav .dropdown-menu > li > a {
+    padding: 10px 20px;
+    color: #333; /* Example text color */
+}
+
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav .dropdown-menu > li > a:focus {
+    background-color: #e7e7e7; /* Example hover background color */
+    color: #000; /* Example hover text color */
+}
